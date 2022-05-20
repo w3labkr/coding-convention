@@ -2,6 +2,6 @@
 
 Style guides for W3LabKr open-source projects.
 
-[w3labkr.github.io/styleguide/][1]{:target="_blank"}
+[w3labkr.github.io/styleguide/][1]
 
 [1]: https://w3labkr.github.io/styleguide/
