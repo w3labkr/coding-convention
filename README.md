@@ -2,4 +2,4 @@
 
 Style guides for W3LabKr open-source projects.
 
-<a href="https://w3labkr.github.io/styleguide/" target="_blank">w3labkr.github.io/styleguide/</a>
+[w3labkr.github.io/styleguide/](https://w3labkr.github.io/styleguide/)
