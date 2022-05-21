@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/w3labkr/styleguide#readme",
   "devDependencies": {
+    "browserslist": "^4.20.3",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
