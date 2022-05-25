@@ -7,6 +7,12 @@
         "sleistner.vscode-fileutils",
         "compulim.indent4to2",
         "alefragnani.project-manager",
-        "liximomo.sftp"
+        "liximomo.sftp",
+        "stylelint.vscode-stylelint",
+        "esbenp.prettier-vscode",
+        "davidanson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "hookyqr.beautify",
+        "mrmlnc.vscode-autoprefixer"
     ]
 }
