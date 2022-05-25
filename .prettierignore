@@ -10,3 +10,6 @@
 # Ignore minify files:
 *.min.css
 *.min.js
+
+# Ignore specific files:
+#...
