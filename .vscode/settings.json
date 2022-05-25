@@ -57,7 +57,7 @@
     "stylelint.validate": ["css", "less", "postcss"],
     "stylelint.snippet": ["css", "less", "postcss"],
 
-    "autoprefixer.formatOnSave": true, 
+    "autoprefixer.formatOnSave": false, 
     "autoprefixer.ignoreFiles": [
         "**/*.min.css"
     ],
@@ -92,5 +92,12 @@
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": true
         },
+    },
+
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": true
+        }
     },
 }
