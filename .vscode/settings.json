@@ -49,10 +49,6 @@
         "editor.formatOnSave": true
     },
 
-    "css.validate": false,
-    "css.lint.emptyRules": "ignore",
-    "css.lint.unknownProperties": "ignore",
-
     "stylelint.enable": true,
     "stylelint.validate": ["css", "less", "postcss"],
     "stylelint.snippet": ["css", "less", "postcss"],
@@ -69,6 +65,10 @@
             "not dead"
         ]
     },
+
+    "css.validate": false,
+    "css.lint.emptyRules": "ignore",
+    "css.lint.unknownProperties": "ignore",
 
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
