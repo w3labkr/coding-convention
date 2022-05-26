@@ -24,6 +24,8 @@
                 "border-in-box-model": true,
                 "empty-line-between-groups": true
             }
-        ]
+        ],
+        "block-no-empty": null,
+        "property-no-vendor-prefix": null
     }
 }
