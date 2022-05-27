@@ -95,9 +95,15 @@
     },
 
     "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll.markdownlint": true
         }
+    },
+    
+    "[xml]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "redhat.vscode-xml"
     },
 }
