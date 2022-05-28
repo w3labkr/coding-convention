@@ -15,6 +15,9 @@
         "hookyqr.beautify",
         "mrmlnc.vscode-autoprefixer",
         "ritwickdey.liveserver",
-        "redhat.vscode-xml"
+        "redhat.vscode-xml",
+        "mechatroner.rainbow-csv",
+        "editorconfig.editorconfig",
+        "christian-kohler.path-intellisense"
     ]
 }
