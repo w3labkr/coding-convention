@@ -13,6 +13,8 @@
         "davidanson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
         "hookyqr.beautify",
-        "mrmlnc.vscode-autoprefixer"
+        "mrmlnc.vscode-autoprefixer",
+        "ritwickdey.liveserver",
+        "redhat.vscode-xml"
     ]
 }
