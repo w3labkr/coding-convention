@@ -96,6 +96,7 @@
 
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.tabSize": 4,
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll.markdownlint": true
@@ -103,7 +104,8 @@
     },
     
     "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml",
+        "editor.tabSize": 4,
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "redhat.vscode-xml"
     },
 }
