@@ -1,0 +1,32 @@
+{
+    "stylelint.enable": true,
+    "stylelint.validate": ["css", "scss", "less", "postcss"],
+    "stylelint.snippet": ["css", "scss", "less", "postcss"],
+
+    "autoprefixer.formatOnSave": false, 
+    "autoprefixer.ignoreFiles": [
+        "**/*.min.css"
+    ],
+    "autoprefixer.options": {
+        "browsers": [
+            "> 0.5%",
+            "last 2 versions",
+            "Firefox ESR",
+            "not dead"
+        ]
+    },
+    
+    "scss.validate": false,
+    "scss.lint.emptyRules": "ignore",
+    "scss.lint.unknownProperties": "ignore",
+
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.stylelint": true
+        }
+    },
+
+}
