@@ -93,4 +93,25 @@
             "source.fixAll.eslint": true
         },
     },
+
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": true
+        }
+    },
+
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.tabSize": 4,
+        "editor.formatOnSave": false,
+    },
+
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml",
+        "editor.tabSize": 4,
+        "editor.formatOnSave": false
+    },
 }
