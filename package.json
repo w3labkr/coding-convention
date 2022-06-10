@@ -45,14 +45,14 @@
         }
     },
     "lint-staged": {
-        "*.html": [
-            "js-beautify *.html"
+        "*.{htm, html}": [
+            "js-beautify --type 'html' --replace"
         ],
-        "*.{css, less, postcss}": [
+        "*.{css, scss, less, postcss}": [
             "stylelint --fix",
             "prettier --write"
         ],
-        "*.{js, jsx, ts, tsx}": [
+        "*.{js, jsx}": [
             "eslint --fix",
             "prettier --write"
         ],
