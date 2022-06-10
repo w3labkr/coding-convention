@@ -1,0 +1,59 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+  - repo: https://github.com/psf/black
+    rev: 22.3.0
+    hooks:
+      - id: black
+        language_version: python3.9
+        args: ["--line-length=88"]
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
+      - id: flake8
+  - repo: https://github.com/aufdenpunkt/pre-commit-js-beautify
+    rev: 1.13.0
+    hooks:
+      - id: js-beautify
+        additional_dependencies: ["js-beautify@1.14.3"]
+        language: node
+        files: \.(htm|html)$
+        args: ["--replace"]
+  - repo: https://github.com/awebdeveloper/pre-commit-stylelint
+    rev: 0.0.2
+    hooks:
+      - id: stylelint
+        additional_dependencies:
+          [
+            "stylelint@14.7.1",
+            "stylelint-config-prettier@9.0.3",
+            "stylelint-config-rational-order@0.1.2",
+            "stylelint-config-recommended@7.0.0",
+            "stylelint-config-styled-components@0.1.1",
+            "stylelint-csstree-validator@2.0.0",
+            "stylelint-order@5.0.0",
+            "stylelint-prettier@2.0.0",
+          ]
+        language: node
+        files: \.(css|scss|sass)$
+        args: ["--fix"]
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.17.0
+    hooks:
+      - id: eslint
+        additional_dependencies:
+          - eslint@8.13.0
+          - eslint-config-prettier@8.5.0
+          - eslint-plugin-import@2.26.0
+          - eslint-plugin-prettier@4.0.0
+        language: node
+        files: \.(js|jsx)$
+        types: [file]
+        args: ["--fix"]
