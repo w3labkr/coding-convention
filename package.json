@@ -8,7 +8,8 @@
         "clean:cache": "npm cache clean --force",
         "clean": "npm run clean:dir && npm run clean:cache",
         "build": "npm run clean && npm install",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "release": "standard-version"
     },
     "repository": {
         "type": "git",
@@ -22,6 +23,8 @@
     },
     "homepage": "https://github.com/w3labkr/styleguide#readme",
     "devDependencies": {
+        "@commitlint/cli": "^17.0.2",
+        "@commitlint/config-conventional": "^17.0.2",
         "browserslist": "^4.20.3",
         "eslint": "^8.14.0",
         "eslint-config-prettier": "^8.5.0",
@@ -30,6 +33,7 @@
         "js-beautify": "^1.14.3",
         "lint-staged": "^13.0.1",
         "prettier": "^2.6.2",
+        "standard-version": "^9.5.0",
         "stylelint": "^14.8.2",
         "stylelint-config-prettier": "^9.0.3",
         "stylelint-config-rational-order": "^0.1.2",
