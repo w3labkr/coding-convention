@@ -14,10 +14,6 @@ repos:
       - id: black
         language_version: python3.9
         args: ["--line-length=88"]
-  - repo: https://gitlab.com/pycqa/flake8
-    rev: 3.9.2
-    hooks:
-      - id: flake8
   - repo: https://github.com/aufdenpunkt/pre-commit-js-beautify
     rev: 1.13.0
     hooks:
