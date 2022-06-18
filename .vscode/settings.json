@@ -125,7 +125,7 @@
     "python.languageServer": "Pylance",
 
     "python.formatting.provider": "black",
-    "python.formatting.blackArgs": ["--line-length", "88"],
+    "python.formatting.blackArgs": ["--line-length", "120"],
 
 	"python.linting.flake8Enabled": true,
 	"python.linting.enabled": true,
